@@ -1,0 +1,5 @@
+services:
+  8.0-fpm-alpine:
+    build:
+      context: ./php-8.0-fpm-alpine
+    image: kukusa/apis-docker-image-libraries:php-8.0-fpm-alpine
